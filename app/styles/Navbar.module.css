@@ -1,0 +1,44 @@
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 2rem; /* Increased padding for better spacing */
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.navLogo {
+    font-size: 1.8rem; /* Increased font size for better visibility */
+    font-weight: bold;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navLinks {
+    display: flex;
+    gap: 1.5rem; /* Added gap between nav items for better spacing */
+}
+
+.navItem {
+    text-decoration: none;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 4px; /* Added border-radius for rounded corners */
+}
+
+.navItem:hover,
+.navItem:focus {
+    background-color: #555;
+    outline: none;
+}
+
+/* Highlight the logo on hover for better UX */
+.navLogo:hover {
+    opacity: 0.8;
+}

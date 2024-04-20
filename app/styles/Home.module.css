@@ -1,0 +1,151 @@
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li button {
+    cursor: pointer;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.pagination li button:disabled {
+    cursor: default;
+    color: #999;
+}
+
+.pagination li button:not(:disabled):hover {
+    background-color: #eee;
+}
+
+.active button {
+
+    font-weight: bold;
+    border-color: black;
+}
+
+.container {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th,
+.table td {
+    text-align: left;
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.table th {
+    background-color: #f9f9f9;
+}
+
+.table td {
+    font-size: 14px;
+}
+
+.report-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.report-download {
+    cursor: pointer;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.pagination li {
+    margin: 0 5px;
+}
+
+.pagination li a {
+    cursor: pointer;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    color: #333;
+}
+
+.pagination li a:hover {
+    background-color: #f4f4f4;
+}
+
+.pagination .active a {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+.pagination .disabled a {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+.rows-per-page {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.rows-per-page select {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 5px;
+}
+
+
+.reportDownload {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.reportDownload:hover,
+.reportDownload:focus {
+    background-color: #0056b3;
+    outline: none;
+}
+
+.reportDownload:active {
+    background-color: #004080;
+}
+
+.reportDownload:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
